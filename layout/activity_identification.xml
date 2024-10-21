@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".identification">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/darkestgreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="53dp"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/settings231" />
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:fontFamily="@font/audiowide"
+
+            android:paddingTop="8dp"
+            android:text="Identify"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="37dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.248" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:padding="0dp"
+        app:cardBackgroundColor="@color/darkestgreen"
+        app:cardCornerRadius="40dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/www2" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="180dp"
+
+            android:background="#fff"
+            android:backgroundTint="@color/darkestgreen"
+            app:srcCompat="@drawable/home7" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="311dp"
+            app:srcCompat="@drawable/instock2" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Change URL"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="30dp"
+
+
+            android:shadowRadius="@integer/material_motion_duration_long_1"
+            android:text="Home"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="30dp"
+            android:text="Stock Take"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="414dp"
+        android:layout_height="485dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="684dp" >
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="408dp"
+            android:layout_height="138dp"
+
+            app:srcCompat="@drawable/scan2" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="73dp"
+            android:layout_height="79dp"
+            app:srcCompat="@drawable/scan"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
